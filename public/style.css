@@ -1,0 +1,33 @@
+.table{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse:collapse ;
+    list-style: none;
+    padding: 6px;
+   
+}
+h2{
+    margin-left: 500px;
+}
+header{
+    margin-left: 350px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+.gets{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
