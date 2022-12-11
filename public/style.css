@@ -3,31 +3,32 @@
     border-collapse:collapse ;
     list-style: none;
     padding: 6px;
-   
+   margin: 0px;
+   margin-left: 80px;
 }
-h2{
-    margin-left: 500px;
-}
-header{
-    margin-left: 350px;
-}
-.links{
+.tablea{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: start;
+    padding: 7px;
 }
-.gets{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+h2{
+    margin-left: 550px;
 }
+header{
+    margin-left: 420px;
+}
+
 .product{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-  
+ 
+}
+.producta{
+    border-collapse: collapse;
+     display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    text-align: center; */
 }

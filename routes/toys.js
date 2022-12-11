@@ -28,7 +28,7 @@ router.get("/", async (req, res) => {
 
 
 
-router.get("/category", async (req, res) => {
+router.get("/category/:urlCode", async (req, res) => {
   try {
     let searchQ = req.query.s;
     let categoryExp = new RegExp(searchQ, "i")

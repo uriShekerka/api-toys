@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="box1 d-flex justify-content-center align-items-center text-info ">
         <h1 style="color: rgb(4, 10, 79)">Toys api documentation
@@ -14,98 +16,81 @@
     </header>
     <h2 style="color: rgb(14, 148, 119)" class="text-center">Routes</h2>
     <table class="table">
-        <tr  class="table">
-            <th> <button class="accordion-button" type="button" >
+        <tr class="table">
+            <th>
                 Get product (s)
-            </button></th>
-            <th class="table"><li class="pt-2 product">Get 10 products by page number:
-        </li>
-        <li class="pt-2 product">Get X products in each page:
-    </li>
-    <li class="pt-2 product">Search toy by name or info:
-<li class="pt-2 product">Get all products by category:
-</li>
-    </th>
-            <th class="table product"><a
-               
-                href="https://toys-api.cyclic.app/toys/?perPage=10"
-                target="_blank">/toys/?perPage=10</a>
-                <a
-             
-                href="https://toys-api.cyclic.app/toys/?perPage=10&page=1"
-                target="_blank">/toys/?perPage=10&page=1</a>
-                <a
-        class="nav-link ps-1 d-inline-block"
-        href="https://toys4you.herokuapp.com/toys?s=toy"
-        target="_blank">/toys/search/?s= name or info</a>
-        <a
-        class="nav-link ps-1 d-inline-block"
-        href="https://toys4you.herokuapp.com/toys/category/cars"
-        target="_blank">/toys/category/:category-name</a>
             </th>
-            <th class="table"><span class="ps-2 product" style="color: rgb(6, 156, 6);">
-                (GET)</span>
-                <span class="ps-2 product" style="color: rgb(6, 156, 6);">
+            <th class="table">
+                <li class="pt-2 product">Get 10 products by page number:
+                </li>
+                <li class="pt-2 product">Get X products in each page:
+                </li>
+                <li class="pt-2 product">Search toy by name or info:
+                <li class="pt-2 product">Get all products by category:
+                </li>
+            </th>
+            <th class="tablea "><a href="https://uri-api-toys.cyclic.app/toys/?perPage=10"
+                    target="_blank">/toys/?perPage=10</a>
+                <a href="https://uri-api-toys.cyclic.app/toys/?perPage=10&page=1"
+                    target="_blank">/toys/?perPage=10&page=1</a>
+                <a class="nav-link ps-1 d-inline-block" href="https://uri-api-toys.cyclic.app/toys/search/?s=catan"
+                    target="_blank">/toys/search/?s= name or info</a>
+                <a class="nav-link ps-1 d-inline-block" href="https://uri-api-toys.cyclic.app/toys/category"
+                    target="_blank">/toys/category/category-name</a>
+            </th>
+            <th class="table">
+                <span class="ps-2 product" style="color: rgb(17, 220, 37);">
                     (GET)</span>
-                <span class="ps-2 product" style="color: rgb(6, 156, 6);">
+                <span class="ps-2 product" style="color: rgb(17, 220, 37);">
                     (GET)</span>
-                <span class="ps-2 product" style="color: rgb(6, 156, 6);">
+                <span class="ps-2 product" style="color: rgb(17, 220, 37);">
                     (GET)</span>
-                    
+                <span class="ps-2 product" style="color:rgb(17, 220, 37);">
+                    (GET)</span>
             </th>
         </tr>
-        <tr  class="table border-collapse">
-            <th class="table"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                aria-controls="flush-collapseTwo">
+        <tr class="table border-collapse">
+            <th class="table">
                 Add product
-            </button></th>
-            <th class="table d-flex justify-content-center text-align-start">  Get toy - (only for register user - must send user's
+            </th>
+            <th class="table d-flex justify-content-center text-align-start"> Get toy - (only for register user - must
+                send user's
                 auth-token through headers):
                 <li class="pt-2 product">name</li>
                 <li class="pt-2 product">info</li>
                 <li class="pt-2 product">category</li>
                 <li class="pt-2 product">user_id</li>
             </th>
-            <th  class="table "><a class="nav-link ps-1 d-inline-block"
-                href="https://toys-api.cyclic.app/toys" target="_blank">/toys</a></th>
-            <th  class="table"><span
-                style="color: rgb(213, 220, 17);">
-                (POST)</span>
-                <span class="ps-2 product"
-                style="color: rgb(220, 136, 17);">
-                (required)</span>
-                <span class="ps-2 product"
-                style="color: rgb(220, 136, 17);">
-                (required)</span>
-                <span class="ps-2 product"
-                style="color: rgb(220, 136, 17);">
-                (required)</span>
-                <span class="ps-2 product"
-                style="color: rgb(220, 136, 17);">
-                (required)</span>
+            <th class="table "><a class="nav-link ps-1 d-inline-block" href="https://uri-api-toys.cyclic.app/toys"
+                    target="_blank">/toys</a></th>
+            <th class="table"><span style="color: rgb(213, 220, 17);">
+                    (POST)</span>
+                <span class="ps-2 product" style="color: rgb(220, 136, 17);">
+                    (required)</span>
+                <span class="ps-2 product" style="color: rgb(220, 136, 17);">
+                    (required)</span>
+                <span class="ps-2 product" style="color: rgb(220, 136, 17);">
+                    (required)</span>
+                <span class="ps-2 product" style="color: rgb(220, 136, 17);">
+                    (required)</span>
             </th>
         </tr>
-        <tr  class="table">
-            <th class="table">   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                aria-controls="flush-collapseThree">
-                Edit product    </button>
+        <tr class="table">
+            <th class="table">
+                Edit product
             </th>
             <th class="table">Edit product - (only for register user - must send
                 user's
                 auth-token through headers):</th>
             <th class="table"><a class="nav-link ps-1 d-inline-block"
-                href="https://toys4you.herokuapp.com/toys">/toys/:_id (toy)</a></th>
-            <th><span
-                style="color: blue;">
-                (PUT)</span></th>
+                    href="https://uri-api-toys.cyclic.app/toys">/toys/_id (toy)</a></th>
+            <th><span style="color: blue;">
+                    (PUT)</span></th>
         </tr>
-        <tr  class="table">
-            <th class="table"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                Delete product
-            </button></th>
+        <tr class="table">
+            <th class="table">
+                    Delete product
+                </th>
             <th class="table">Delete product - (only for register user - must
                 send user's auth-token through headers):
                 <li>name</li>
@@ -116,22 +101,23 @@
                 <li>user_id</li>
             </th>
             <th class="table"><a class="nav-link ps-1 d-inline-block"
-                href="https://toys4you.herokuapp.com/toys">/toys/:_id (toy)</a></th>
+                    href="https://uri-api-toys.cyclic.app/toys">/toys/_id (toy)</a></th>
             <th class="table"><span style="color: red;">
-                (DELETE)</span>
+                    (DELETE)</span>
                 <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
-                    (required)</span></li>
-            <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
-                    (required)</span></li>
-            <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
-                    (required)</span></li>
-            <li class="pt-2 product"></li>
-            <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
-                    (required)</span></li>
-            <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
-                    (required)</span></li>
+                        (required)</span></li>
+                <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
+                        (required)</span></li>
+                <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
+                        (required)</span></li>
+                <li class="pt-2 product"></li>
+                <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
+                        (required)</span></li>
+                <li class="pt-2 product"><span class="ps-2" style="color: rgb(220, 136, 17);">
+                        (required)</span></li>
             </th>
         </tr>
     </table>
 </body>
+
 </html>
