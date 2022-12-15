@@ -30,10 +30,8 @@ router.get("/", async (req, res) => {
 
 router.get("/category/:urlCode", async (req, res) => {
   try {
-    let searchQ = req.query.s;
-    let categoryExp = new RegExp(searchQ, "i")
-
-    let data = await ToysModel.find({ category: categoryExp })
+    let urlCode = req.params.urlCode;
+    let data = await ToysModel.find({ category: urlCode })
       .limit(20)
     res.json(data);
 
